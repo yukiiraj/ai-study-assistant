@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Local data
+data/documents/*
+
+# Vector database / local storage
+storage/
+chroma_db/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
